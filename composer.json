@@ -1,5 +1,5 @@
 {
-    "name": "craigmorris/deadline-php",
+    "name": "morrislaptop/deadline-php",
     "description": "PHP Wrapper for the Deadline REST API",
     "license": "MIT",
     "authors": [
@@ -8,5 +8,12 @@
             "email": "craig.michael.morris@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morrislaptop\\Deadline\\": "src/"
+        }
+    }
 }
